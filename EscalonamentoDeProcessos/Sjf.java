@@ -40,6 +40,9 @@ public class Sjf {
 
 			cont++;
 
+			/*Dormir por 1min*/
+			try { Thread.sleep(1000); } catch(Exception erro) {}
+
 		} while ( true );
 		System.out.println("Fim de processamento.");
 	}
