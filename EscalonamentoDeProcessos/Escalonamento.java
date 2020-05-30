@@ -22,7 +22,7 @@ public class Escalonamento {
 				Sjf.sjf();
 			}
 			else {
-				JOptionPane.showMessageDialog(null,"Programa em falta! :(");
+				Rr.rr();
 			}
 
 		} while ( true );

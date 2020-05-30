@@ -14,7 +14,7 @@ public class Sjf {
 		nprocessos = input.nextInt();
 		int processos[] = new int[nprocessos];
 
-		System.out.println("Digite o número de cada processo e depois (enter)");
+		System.out.println("Digite o número do processo e depois (enter)");
 		for ( int i = 0; i < processos.length; i++ ) {
 			processos[i] = input.nextInt();
 		}
