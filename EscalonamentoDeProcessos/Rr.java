@@ -74,7 +74,7 @@ public class Rr {
 			i++;
 
 			if ( i == valoresProcessos.length ) {
-			i = 0;
+				i = 0;
 			}
  			if ( compara( valoresProcessos ) ) {
                         	break;
