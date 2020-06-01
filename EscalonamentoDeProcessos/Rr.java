@@ -32,7 +32,7 @@ public class Rr {
 		}
 	}
 
-		static void rr () {
+	static void rr () {
 
 		/*Declarando e recebendo os valores*/
 		int quantum, n, contador,i;
