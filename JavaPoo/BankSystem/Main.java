@@ -9,12 +9,12 @@ public class Main {
 		conta1.deposita(800);
 		conta2.deposita(1000);
 
-		Funcoes.saqueEfetuado( conta1.saca(900) );
+		Funcoes.saqueEfetuado( conta1.saca(700) );
 
 		System.out.println("Saldo atual da conta1: " + conta1.saldo);
 		System.out.println("Saldo atual da conta2: " + conta2.saldo);
 
-		Funcoes.transferenciaEfetuada( conta2.transfere(1001, conta1) ); 
+		Funcoes.transferenciaEfetuada( conta2.transfere(101, conta1) ); 
 
 		System.out.println("Saldo da conta1: " + conta1.saldo);
 		System.out.println("Saldo da conta2: " + conta2.saldo);
