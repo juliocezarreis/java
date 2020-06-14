@@ -2,7 +2,6 @@ public class Main {
 
 	public static void main ( String[] args ) {
 
-		/*Instanciando objetos do tipo Conta*/
 		Conta conta1 = new Conta();
 		Conta conta2 = new Conta();
 
@@ -18,5 +17,11 @@ public class Main {
 
 		System.out.println("Saldo da conta1: " + conta1.saldo);
 		System.out.println("Saldo da conta2: " + conta2.saldo);
+
+		Conta conta3 = new Conta();
+		conta3.titular = new Cliente();
+		conta3.titular.nome = "Júlio";
+
+		System.out.println(conta3.titular.nome);
 	}
 }
