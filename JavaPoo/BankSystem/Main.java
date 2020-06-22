@@ -4,8 +4,8 @@ public class Main {
 
 		/*"Brincadeiras" com [Orientacao a Objeto] apenas por treinamento*/
 
-		Conta conta1 = new Conta();
-		Conta conta2 = new Conta();
+		Conta conta1 = new Conta(1212, 1111);
+		Conta conta2 = new Conta(1111, 2222);
 
 		conta1.deposita(800);
 		conta2.deposita(1000);
@@ -21,7 +21,7 @@ public class Main {
 		System.out.println("Saldo da conta2: " + conta2.getSaldo());
 
 		//Conta do Paulo
-		Conta conta3 = new Conta();
+		Conta conta3 = new Conta(3333, 4444);
 		Cliente paulo = new Cliente();
 		conta3.setTitular(paulo);
 
@@ -34,5 +34,7 @@ public class Main {
 		System.out.println("Ag: " + conta1.getAgencia());
 		paulo.setCpf("222.222.222-22");
 		System.out.println(paulo.getCpf());
+
+		System.out.println(Conta.getTotalContas());
 	}
 }
