@@ -8,12 +8,12 @@ public class Rr {
 
 	/*Recebe o nome e tempo dos processos*/
 	static void recebeProcessos( int valoresProcessos[] , String nomesProcessos[] ) {
-                for ( int i = 0; i < valoresProcessos.length; i++ ) {
+        for ( int i = 0; i < valoresProcessos.length; i++ ) {
 			System.out.print("Digite o nome do processo: ");
 			nomesProcessos[i] = input.next();
 			System.out.print("Digite seu tempo: ");
-                        valoresProcessos[i] = input.nextInt();
-                }
+            valoresProcessos[i] = input.nextInt();
+        }
 	}
 
 	/*Compara os valores a 0*/
@@ -77,7 +77,7 @@ public class Rr {
 				i = 0;
 			}
  			if ( compara( valoresProcessos ) ) {
-                        	break;
+                break;
 			}
 
 		} while ( true );
